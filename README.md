@@ -9,6 +9,9 @@
 ## Setup
 ```shell
 git clone https://github.com/Xcution3r/Linux-Stuff.git
+cd Linux-Stuff/Installations
+# For example:
+./install_omz.sh
 ```
 #### Make sure you give execution permissions to these scripts
 ```shell
