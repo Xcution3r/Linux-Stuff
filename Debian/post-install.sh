@@ -34,7 +34,10 @@ sudo apt install -y \
     gnupg \
     openvpn \
     network-manager-openvpn-gnome \
-    ptyxis
+    ptyxis \
+    gnome-tweaks \
+    fonts-hack \
+    fonts-jetbrains-mono
 
 # Make pipx binaries available in PATH
 pipx ensurepath
