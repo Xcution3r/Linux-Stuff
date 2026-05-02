@@ -37,7 +37,8 @@ sudo apt install -y \
     ptyxis \
     gnome-tweaks \
     fonts-hack \
-    fonts-jetbrains-mono
+    fonts-jetbrains-mono \
+    papirus-icon-theme
 
 # Make pipx binaries available in PATH
 pipx ensurepath
