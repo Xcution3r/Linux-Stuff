@@ -28,12 +28,13 @@ sudo apt install -y \
     git \
     open-vm-tools \
     open-vm-tools-desktop \
-    python3-pipx \
+    pipx \
     php \
     build-essential \
     gnupg \
     openvpn \
-    network-manager-openvpn-gnome
+    network-manager-openvpn-gnome \
+    ptyxis
 
 # Make pipx binaries available in PATH
 pipx ensurepath
