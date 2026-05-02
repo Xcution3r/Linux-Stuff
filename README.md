@@ -1,19 +1,19 @@
 # Linux-Stuff
-#### Scripts to automate the post-installation of a Linux distribution
-- Installations
-  - apache2-mysql-installer.sh
-  - caido-installer.sh
-  - flatpak-kubuntu-installer.sh
-  - install_omz.sh
-  - sublime-installer.sh
-## Setup
+## Automating the Debian 13 Post Installation
+### Setup
 ```shell
-git clone https://github.com/Xcution3r/Linux-Stuff.git
-cd Linux-Stuff/Installations
-# For example:
-./install_omz.sh
+wget https://raw.githubusercontent.com/Xcution3r/Linux-Stuff/refs/heads/main/Debian/post-install.sh
+chmod +x post-install.sh
+./post-install.sh
 ```
-#### Make sure you give execution permissions to these scripts
-```shell
-chmod +x script.sh
-```
+### Installation
+- Curl
+- Git
+- VM Tools (To copy & paste etc..)
+- Pipx for Python
+- PHP & NodeJS
+- Golang
+- OpenVPN & Plugin for the NetworkManager
+- Brave Browser
+- VSCodium & Sublime
+- BurpSuite
